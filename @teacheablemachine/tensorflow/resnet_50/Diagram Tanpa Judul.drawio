@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Halaman-1" id="-5ztadXRsHIS7kXBAtXC">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7VFLBMvF71k1pUnzPj1-1" target="Y7VFLBMvF71k1pUnzPj1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Y7VFLBMvF71k1pUnzPj1-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Y7VFLBMvF71k1pUnzPj1-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-1" value="Identifikasi masalah" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7VFLBMvF71k1pUnzPj1-3" target="Y7VFLBMvF71k1pUnzPj1-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-3" value="Pemecahan Masalah" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-5" value="tingkat hasil diagnosa dari pembacaan rontgen (citra x ) hanya berkisar di angka 70%" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-6" value="gambar yang dihasilkan dari metode rontgen hanya bisa di diagnosa oleh para ahli ?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7VFLBMvF71k1pUnzPj1-9" target="Y7VFLBMvF71k1pUnzPj1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-9" value="membuat sistem pengklasifikasian citra x tbc menggunakan sistem AI untuk membaca hasil diagnosa dan meningkatkan keakuratanya&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="432" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7VFLBMvF71k1pUnzPj1-11" target="Y7VFLBMvF71k1pUnzPj1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-11" value="Perancangan dan Program" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="578" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y7VFLBMvF71k1pUnzPj1-13" target="Y7VFLBMvF71k1pUnzPj1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-13" value="Perancangan sistem pengklasifikasian citra x tbc menggunkan resnet 50" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="680" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y7VFLBMvF71k1pUnzPj1-15" target="Y7VFLBMvF71k1pUnzPj1-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-15" value="pengujian sistem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VFLBMvF71k1pUnzPj1-17" value="Produk Akhir" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

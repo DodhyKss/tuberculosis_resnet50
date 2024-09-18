@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistem Klasifikasi Penyakit Tuberculosis</title>
+</head>
+<body>
+
+    <!-- remove -->
+    <div class="container-video" id="container-video">
+        <video class="video" id="video" autoplay muted loop>
+            <source src="./@teacheablemachine/tensorflow/resnet_50/vid/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="judul hide" id="judul-1">Sistem Klasifikasi Penyakit Tuerculosis (Resnet50)</div>
+    <div class="container hide" id="content">
+
+        <div id="webcam-container" class="show"></div>
+        <div class="tombol show" id="start">
+            <h4>Mulai Scan Citra Xray</h4>
+            <button type="button" onclick="init()">Start</button>
+        </div>
+
+        <div class="tombol hide" id="stop">
+            <button type="button" onclick="stopCam()">Stop</button>
+        </div>
+        
+        <div id="label-container"></div>
+    </div>
+    
+
+    <div class="judul show" id="judul-2">Sistem Klasifikasi Penyakit Tuberculosis (Resnet50)</div>
+    <div class="form-login show" id="login">
+            <h4>Login</h4>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <br>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <br>
+            <button onclick="viewLogin()">Login</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
